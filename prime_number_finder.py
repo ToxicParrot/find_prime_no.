@@ -34,7 +34,7 @@ while loop == True:
     print('')
     
     #creating the choice to loop and find another number
-    choice = input('would you like to check another number? Y/N')
+    choice = input('would you like to check another number? Y/N  ')
 
     if choice == 'N' or choice == 'n': 
         print('____________________________________')
@@ -42,6 +42,7 @@ while loop == True:
         break
     else:
          print('____________________________________')
+
 
 
 
