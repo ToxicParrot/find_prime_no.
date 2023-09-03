@@ -12,7 +12,7 @@ loop = True
 
 while loop == True: 
     #Going to make this a little more personal by using user inputs to drive a code
-    user_num = input('which number do you want to check: ')
+    user_num = input('which number do you want to check: \n')
 
     #defining a function that I can run to check whether the number is a prime or not
     def prime_check(num): 
@@ -34,9 +34,9 @@ while loop == True:
     print('')
     
     #creating the choice to loop and find another number
-    choice = input('would you like to check another number? Y/N  ')
+    choice = input('would you like to check another number? Y/N  \n')
 
-    if choice == 'N' or choice == 'n': 
+    if 'n' in choice.lower():
         print('____________________________________')
         #I can either use the break function to stop the loop, or set loop to False. in this case I used the break function to make the code less noisey.
         break
